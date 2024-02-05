@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainrhemabg"
+    android:gravity="center"
+    tools:context=".MainRhema">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/mr_relative"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/mr_heading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="16dp"
+                android:text="@string/mr_head"
+                android:textColor="@color/selected"
+                android:textSize="40dp"
+                android:textStyle="bold"
+
+                />
+
+
+            <TextView
+                android:id="@+id/mr_word"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/mr_heading"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="315dp"
+                android:gravity="center"
+                android:text="@string/mr_myword"
+                android:textColor="@color/selected"
+                android:textSize="40dp"
+
+                />
+
+            <ImageView
+                android:id="@+id/mr_rhema"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/mr_word"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/rhema_1"
+                />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="320dp"
+                android:layout_height="70dp"
+                android:id="@+id/mr_rhemabtn"
+                android:layout_below="@id/mr_rhema"
+                android:layout_marginTop="30dp"
+                android:textSize="25sp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/rhema_btn2"
+                android:text="@string/mr_grabrhema"
+                />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="320dp"
+                android:layout_height="70dp"
+                android:id="@+id/mr_rhemabtn2"
+                android:layout_below="@id/mr_rhemabtn"
+                android:layout_marginTop="30dp"
+                android:textSize="25sp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/rhema_btn2"
+                android:text="@string/mr_home"
+                android:layout_marginBottom="50dp"
+                />
+
+
+
+
+
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>

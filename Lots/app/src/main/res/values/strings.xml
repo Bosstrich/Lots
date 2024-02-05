@@ -1,0 +1,115 @@
+<resources>
+
+
+    <string name="app_name">Lots</string>
+    <string name="splashtext"><font color="#F7941D"><b>K</b></font>ing of <font color="#F7941D"><b>K</b></font>ings</string>
+    <string name="nxttxt">Next</string>
+    <string name="empty" />
+
+    <!--  OnBoarding Screen   -->
+
+    <string name="welcometxt"><b>Welcome to Lots!</b></string>
+    <string name="obsh2">Confess your Sins</string>
+    <string name="obsh3">Bind Lying Spirits</string>
+    <string name="obsh4">Ask Holy Spirit</string>
+
+    <!--Bottom Navigation Bar    -->
+
+    <string name="home_title">Cast Lots</string>
+    <string name="biblical_title">Biblical\?</string>
+    <string name="info_title">Info</string>
+
+    <!-- HomePage    -->
+
+    <string name="gender_select">Select Gender</string>
+
+    <string name="TitleText">LOTS</string>
+    <string name="Subtitle">get messages from God</string>
+    <string name="Rhemabtn">Grab Rhema</string>
+
+    <!--    -->
+    <string name="Infobtn">Run Tutorial Again</string>
+    <string name="genderbtn">Change Gender</string>
+
+
+    <!--Onboarding Description and Heading-->
+
+    <string name="step">(Step:</string>
+    <string name="subtxt">get messages from God</string>
+    <string name="obsd2">Confess all sins. . It is written that if there’s any unforgiveness, resentment, or
+        any other wrong attitude that should be dealt with before praying, it must be laid at the foot of Jesus.
+        Forgive those who have done you wrong, and ask God to forgive you of those who you have done wrong.
+    </string>
+    <string name="obsd3">Bind all Lying Spirits. Lying spirits are a type of demonic spirits that put deceiving thoughts into your mind.
+        When you get a rhema from the Lord, Lying Spirits may give you thoughts which are far from what the Lord intended to say to you . Remember, even Satan can disguise himself as an Angel of Light.
+        Ask the Holy Spirit to bind them in the name of Jesus</string>
+    <string name="obsd4">Ask the Holy Spirit to please show you your status. A simple prayer like,
+        “What is your rhema for me this morning/evening Lord\? Speak Lord, I am listening”.
+        After that, you may then choose a rhema.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Main Rhema and Transition    -->
+    <string name="Load1">Speak Lord</string>
+    <string name="Load2">I am</string>
+    <string name="Load3">Listening</string>
+    <string name="mr_head">My</string>
+    <string name="mr_myword">Here\'s my word for you:</string>
+    <string name="mr_home">Return Home</string>
+    <string name="mr_grabrhema">Grab Another Rhema</string>
+
+
+    <!--  Info Fragment -->
+
+    <string name="info_description"> \t This is a symbol of an Urimm (meaning Lights) and a Thummim (meaning Perfections). They are two holy objects used by Jewish Priests to know God\'s will.
+        \n\n\t The Lots app was designed, and created as a head-start to hear God\'s will for you through casting lots. All Glory belongs to God alone. Amen.
+    </string>
+
+
+    <!--Biblical -->
+
+    <string name="Biblical_Heading">Are Rhemas Biblical\?</string>
+    <string name="Biblical">    Lots are Words, which are Utterances which are Rhema\’s. Please read this below and I think you\'ll find it\'s not just Biblical, but THE given method of knowing the Holy Spirit\'s Will over our own\! \n\n
+    Leviticus, Joshua, Samuel, 1 Chronicles, Nehemiah, Psalms, Joel, Obadiah, Jonah, Nahum, Matthew, Mark, Luke, John and Acts ALL Speak of "lots" which are Rhema\'s. \n\n
+    Proverbs 16:33 States it <b>BEST</b> and very clearly, that it is the recommended way to ask God/Jehovah/Father to decide for us: "The lot is cast into the lap, but the
+whole disposing of it is from Jehovah."- Proverbs 16:33. \n\n
+        Now, "THE WHOLE DISPOSING OF IT IS FROM JEHOVAH" means, God is the one making the decision\! He does this through His Holy Spirit according to what Jesus has told us in messages to Clare on this channel. \n\n
+        Lots are Rhema’s, and this is the best way to get the Word and opinion of the Lord when you do not yet hear his still small voice. This is the reason it is spoken of and used so much in the Bible. Jesus instructed us to "bind lying Spirits" and "confess" prior to doing this, each time you do it. \n\n
+        Also, there\'s Lev_16:8 And Aaron shall cast <b>lots</b> upon the two goats; one lot for the LORD, and the other lot for the scapegoat. \n\n
+    Jos_18:6. Ye shall, therefore, describe the land into seven parts, and bring the
+description hither to me, that I may cast <b>lots</b> for you here before the LORD our God. \n\n
+    Jos_18:8. And the men arose, and went away: and Joshua charged them that went to describe the land, saying, Go and walk through the land, and describe it, and come again to me, that I may here cast <b>lots</b> for you before the LORD in Shiloh. \n\n
+    Jos_18:10. And Joshua cast <b>lots</b> for them in Shiloh before the LORD: and there, Joshua divided the land unto the children of Israel according to their divisions. \n\n
+ 1 Sa_14:42. And Saul said, Cast <b>lots</b> between me and Jonathan my son. And Jonathan was taken. \n\n
+    1 Ch_24:31. These likewise cast <b>lots</b> over against their brethren the sons of Aaron in the presence of David the king, and Zadok, and Ahimelech, and the chief of the fathers of the priests and Levites, even the principal fathers over against their younger brethren. \n\n
+    1 Ch_25:8. And they cast <b>lots</b>, ward against ward, as well the small as the great, the teacher as the scholar. \n\n
+    1 Ch_26:13. And they cast <b>lots</b>, as well the small as the great, according to the house of their fathers, for every gate. \n\n
+    1 Ch_26:14. And the lot eastward fell to Shelemiah. Then for Zechariah his son, a wise counsellor, they cast <b>lots</b>; and his lot came out northward. \n\n
+            Neh_10:34. And we cast the <b>lots</b> among the priests, the Levites, and the people, for the wood offering, to bring it into the house of our God, after the houses of our fathers, at times appointed year by year, to burn upon the altar of the LORD our God, as it is written in the law: \n\n
+    Neh_11:1. And the rulers of the people dwelt at Jerusalem: the rest of the people also cast <b>lots</b>, to bring one of ten to dwell in Jerusalem the holy city, and nine parts to dwell in other cities. \n\n
+    Psa_22:18. They part my garments among them, and cast <b>lots</b> upon my vesture. \n\n
+    Joe_3:3. And they have cast <b>lots</b> for my people; and have given a boy for an harlot, and sold a girl for wine, that they might drink. \n\n
+    Oba_1:11. In the day that thou stoodest on the other side, in the day that the strangers carried away captive his forces, and foreigners entered into his gates, and cast <b>lots</b> upon Jerusalem, even thou wast as one of them. \n\n
+    Jon_1:7. And they said every one to his fellow, Come, and let us cast <b>lots</b>, that we may know for whose cause this evil is upon us. So they cast <b>lots</b>, and the lot fell upon Jonah. \n\n
+    Nah_3:10. Yet was she carried away, she went into captivity: her young children also were dashed in pieces at the top of all the streets: and they cast <b>lots</b> for her honorable men, and all her great men were bound in chains. \n\n
+      Mat_27:35. And they crucified him, and parted his garments, casting <b>lots</b>: that it might be fulfilled which was spoken by the prophet, They parted my garments among them, and upon my vesture did they cast <b>lots</b>. \n\n
+    Mar_15:24. And when they had crucified him, they parted his garments, casting <b>lots</b> upon them, what every man should take.\n\n
+    Luk_23:34. Then said Jesus, Father, forgive them; for they know not what they do. And they parted his raiment and cast <b>lots</b>. \n\n
+     Act_1:26. And they gave forth their <b>lots</b>, and the lot fell upon Matthias; and he was numbered with the eleven apostles. \n\n
+    "Lots" are in 21 Verses of the King James Bible. The Bible itself says to use them to obtain the "Word of God" through the Work of the Holy Spirit\! It also
+instructs us exactly how to use them, and this is how the \"Rhema\" method materialized. \n\n
+            This is as old as the Bible itself and has been a very reliable way of communicating with our dear Jesus through His Holy Spirit, to all who have Prayed first, bound the lying Spirits, and then asked the Lord to reveal His Will to
+them through the Rhema. Try it and you will quickly find that it is absolutely the power of the Holy Spirit directing the outcome. The same works when using a Bible, the Bible Promise Book and even when you set a Christian music playlist to \"Random or Shuffle\". Jesus always seems to play two of His favorite songs in a
+row when I Ask Him to shuffle the music for me and this has now happened many
+times. \n\n   Please do not get caught up in debates with those who may not know this truth, decide for yourself using the information I provided from the Bible. Test it
+for yourself and leave it between you and Jesus weather or not it’s His method. It will not take long for you to see a very obvious "intelligent control" over the results depending on your situation at that time. It\'s something Jesus has always recommended to us since this site started\! I hope this has Blessed all of you\! God \n\n
+    Bless you all\! Glory be to God for this very helpful tool for us\! \n\n
+
+        \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n
+    \"If I can part the red sea for the Israelites, can I not also part the Rhema Cards, or the algorithms to give you my word Sweet Dove\?  \"
+
+        \n\n\n\n\n\n\n\n\n\n\n\n
+    </string>
+
+
+</resources>

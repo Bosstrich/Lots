@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/obscreen1" />
+
+    <ImageView
+        android:id="@+id/lotslogo3"
+        android:layout_centerHorizontal="true"
+        android:layout_width="411dp"
+        android:layout_height="494dp"
+        app:srcCompat="@drawable/lots1" />
+
+    <ImageView
+        android:id="@+id/headimg"
+        android:layout_width="345dp"
+        android:layout_height="345dp"
+        android:adjustViewBounds="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:id="@+id/welcometxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lotslogo3"
+        android:layout_centerInParent="true"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/subtxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/welcometxt"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/subtxt"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:id="@+id/headtxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/headimg"
+        android:layout_centerInParent="true"
+        android:text="This is a sample"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical|end"
+        android:justificationMode="inter_word"
+        android:textSize="40sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/destxt"
+        android:layout_width="390dp"
+        android:layout_height="180dp"
+        android:layout_below="@id/headtxt"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/subtxt"
+        android:textColor="@color/white"
+        android:justificationMode="inter_word"
+        android:textSize="20sp"
+        android:visibility="gone"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/destxt"
+        android:text="@string/step"
+        android:layout_marginTop="10dp"
+        android:id="@+id/steps_des"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:textStyle="bold"
+        android:visibility="gone"
+        />
+
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loadbg"
+    tools:context=".Transition">
+
+    <ImageView
+        android:id="@+id/loadbg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.16"
+        android:scaleType="fitXY"
+        android:src="@drawable/lord"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/load1txt"
+        android:textSize="64sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="113dp"
+        android:textColor="@color/selected"
+        android:text="@string/Load1"
+        android:visibility="gone"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="64sp"
+        android:id="@+id/load2txt"
+        android:layout_below="@+id/load1txt"
+        android:layout_marginTop="68dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/selected"
+        android:visibility="gone"
+        android:text="@string/Load2"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="64sp"
+        android:id="@+id/load3txt"
+        android:layout_below="@+id/load2txt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="68dp"
+        android:textColor="@color/selected"
+        android:text="@string/Load3"
+        android:visibility="gone"
+        />
+
+
+
+</RelativeLayout>

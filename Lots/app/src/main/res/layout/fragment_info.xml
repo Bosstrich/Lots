@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/SplashBackground"
+    tools:context=".InfoFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:src="@drawable/lotslogo"
+            android:layout_marginTop="30dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/lotslogo"
+            />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lotslogo"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/info_description"
+            android:textSize="15sp"
+            android:textColor="@color/selected"
+            android:justificationMode="inter_word"
+            />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:id="@+id/divider"
+            android:layout_below="@+id/description"
+            android:layout_marginTop="20dp"
+            android:background="@color/divider"
+
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/divider"
+            android:textSize="15sp"
+            android:text="@string/Infobtn"
+            android:id="@+id/btninfo"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+
+            />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btninfo"
+            android:textSize="15sp"
+            android:text="@string/genderbtn"
+            android:id="@+id/btngender"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+
+            />
+
+
+
+
+    </RelativeLayout>
+
+</FrameLayout>
